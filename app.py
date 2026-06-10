@@ -17,18 +17,18 @@ st.set_page_config(
 st.markdown("""
 <style>
     .main {
-        background-color: #f0f2f6;
+        background-color: #d48f17;
     }
     .chat-card {
-        background: white;
+        background: #d48f17;
         border-radius: 20px;
         padding: 20px;
         margin: 10px 0;
         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
     .user-card {
-        background: #667eea;
-        color: white;
+        background: #fff;
+        color: black;
         border-radius: 20px;
         padding: 15px 20px;
         margin: 10px 0;
@@ -36,7 +36,7 @@ st.markdown("""
         box-shadow: 0 2px 10px rgba(102,126,234,0.3);
     }
     .ai-card {
-        background: white;
+        background: #d48f17;
         border-radius: 20px;
         padding: 15px 20px;
         margin: 10px 0;
@@ -44,7 +44,7 @@ st.markdown("""
         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
     }
     .header-card {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: linear-gradient(185deg, #d48f17 10%, #000 100%);
         color: white;
         border-radius: 20px;
         padding: 25px;
